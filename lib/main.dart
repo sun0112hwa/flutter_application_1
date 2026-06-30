@@ -37,7 +37,7 @@ class _NotificationReaderPageState extends State<NotificationReaderPage> {
   StreamSubscription<dynamic>? _subscription;
   
   // MongoDB 백엔드 URL (로컬 개발용)
-  static const String _backendUrl = 'http://10.0.2.2:3000/api/notifications';
+  static const String _backendUrl = 'https://api.render.com/deploy/srv-d91mn9daeets73fq5250?key=ivXY6IayUBU';
 
   @override
   void initState() {
