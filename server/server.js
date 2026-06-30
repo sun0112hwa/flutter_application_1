@@ -4,7 +4,8 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 
 // MongoDB 연결 설정
 const MONGODB_URI = process.env.MONGODB_URI;
